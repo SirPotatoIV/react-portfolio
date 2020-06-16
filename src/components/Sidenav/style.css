@@ -1,0 +1,32 @@
+.sidenav {
+  background-color: purple;
+  display: grid;
+  align-items: center;
+  /* not 100% sure why, but things get funky when this isn't applied */
+  justify-items: right;
+}
+
+ul {
+  /* needed for getting bottom border to be full width */
+  width: 100%;
+}
+
+li {
+  font-weight: bold;
+  list-style: none;
+  padding: 40px 0px 10px 0px;
+  margin: 0px 20px 0px 20px;
+  border-bottom: 3px solid white;
+  text-align: right;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 50%;
+}
