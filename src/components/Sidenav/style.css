@@ -1,5 +1,5 @@
 .sidenav {
-  background-color: purple;
+  background-color: #004e64;
   display: grid;
   align-items: center;
   /* not 100% sure why, but things get funky when this isn't applied */
@@ -12,7 +12,7 @@ ul {
 }
 
 li {
-  font-weight: bold;
+  /* font-weight: bold; */
   list-style: none;
   padding: 40px 0px 10px 0px;
   margin: 0px 20px 0px 20px;
