@@ -4,7 +4,8 @@
   padding: 8px;
   align-items: center;
   height: 4vh;
-  background-color: gainsboro;
+  background-color: #004e64;
+  color: white;
 }
 
 .navbar h1 {
@@ -22,5 +23,5 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }

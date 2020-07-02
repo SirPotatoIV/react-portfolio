@@ -1,0 +1,13 @@
+.currentWork {
+  height: 46vh;
+  align-items: center;
+  background: #9fffcb;
+}
+
+.positionSummary {
+  padding: 12px 12px;
+}
+
+/* .positionSummary:nth-child(even) {
+  background: #9fffcb;
+} */
