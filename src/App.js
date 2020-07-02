@@ -1,39 +1,22 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Users from "./routes/Users";
-import Sidenav from "./components/Sidenav";
+import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
+import Skills from "./components/Skills";
 import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div className="container">
-        {/* <Sidenav id="sidenav" /> */}
-        <div className="header"></div>
-        <div className="main">
-          <Sidenav className="sidenav" />
-          <div className="content">
-            <Intro />
-            <Intro />
-            {/* <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/users">
-                <Users />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch> */}
-          </div>
+    <div className="container">
+      <Navbar className="navbar" />
+      <div className="header"></div>
+      <div className="main">
+        <div className="content">
+          <Intro id="intro" />
+          <Skills id="skills" />
         </div>
-        <div className="footer"></div>
       </div>
-    </Router>
+      <div className="footer"></div>
+    </div>
   );
 }
 

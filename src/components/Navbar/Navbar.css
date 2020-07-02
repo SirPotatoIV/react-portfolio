@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  height: 4vh;
+  background-color: gainsboro;
+}
+
+.navbar h1 {
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding: 0px 8px;
+}

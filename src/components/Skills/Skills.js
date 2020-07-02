@@ -1,10 +1,10 @@
 import React from "react";
-import "./Intro.css";
+import "./Skills.css";
 
-export default function Intro() {
+export default function Skills() {
   return (
-    <div id="intro" className="intro">
-      <h1>Jake O&apos;Toole</h1>
+    <div id="skills" className="skills">
+      <h1>Skills</h1>
       <p>
         Certified Full Stack Web Developer looking to utilize their new found
         skills.
