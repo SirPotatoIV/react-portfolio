@@ -3,15 +3,21 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="logo">
         <h1>Jake O&apos;Toole</h1>
       </div>
       <ul className="links">
-        <li>Intro</li>
-        <li>Contact</li>
-        <li>Portfolio</li>
+        <li>
+          <a href="#intro">Intro</a>
+        </li>
+        <li>
+          <a href="#contract">Contract</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
       </ul>
-    </div>
+    </nav>
   );
 }

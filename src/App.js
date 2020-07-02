@@ -9,11 +9,9 @@ function App() {
     <div className="container">
       <Navbar className="navbar" />
       <div className="header"></div>
-      <div className="main">
-        <div className="content">
-          <Intro id="intro" />
-          <Skills id="skills" />
-        </div>
+      <div className="content">
+        <Intro id="intro" />
+        <Skills id="skills" />
       </div>
       <div className="footer"></div>
     </div>

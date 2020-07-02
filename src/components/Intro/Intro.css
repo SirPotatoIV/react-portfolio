@@ -24,6 +24,8 @@ button:hover {
 }
 
 .intro {
-  height: 100vh;
-  margin: 30vh 0 0 5vw;
+  height: 45vh;
+  display: grid;
+  align-content: center;
+  /* margin: 20vh 0 0 5vw; */
 }
